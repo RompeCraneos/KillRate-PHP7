@@ -90,7 +90,7 @@ class SignMgr implements Listener {
 	}
 	private function updateSign($pl,$tile,$text) {
 		$pk = new BlockEntityDataPacket();
-		$data = $tile->getSpawnCompoundTag();
+		$data = $tile->getSpawnCompound();
 		$data->Text1 = new StringTag("Text1",$text[0]);
 		$data->Text2 = new StringTag("Text2",$text[1]);
 		$data->Text3 = new StringTag("Text3",$text[2]);
