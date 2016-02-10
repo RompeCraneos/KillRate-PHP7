@@ -7,12 +7,12 @@
 # KillRate
 
 - Summary: Keep track of the number of kills
-- PocketMine-MP version: 1.5 (API:1.12.0)
+- PocketMine-MP version: 1.5 (API:2.0.0)
 - DependencyPlugins: 
 - OptionalPlugins: PocketMoney, MassiveEconomy, EconomyAPI, GoldStd, RankUp
 - Categories: Informational 
 - Plugin Access: Commands, Databases, Entities, Tiles 
-- WebSite: https://github.com/alejandroliu/pocketmine-plugins/tree/master/KillRate
+- Original WebSite: https://github.com/alejandroliu/pocketmine-plugins/tree/master/KillRate
 
 <!-- end-include -->
 
@@ -20,6 +20,8 @@
 
 <!-- php: $v_forum_thread = "http://forums.pocketmine.net/threads/killrate.8060/"; -->
 <!-- template: prologue.md -->
+
+**NOTE THIS IS A CUSTOM VERSION OF KILLRATE DON'T PLACE A BUG REPORT IN THE OFFICIAL PLUGIN!**
 
 **DO NOT POST QUESTION/BUG-REPORTS/REQUESTS IN THE REVIEWS**
 
