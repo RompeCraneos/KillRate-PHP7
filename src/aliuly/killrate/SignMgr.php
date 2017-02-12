@@ -101,7 +101,7 @@ class SignMgr implements Listener {
 		$pk->x = $tile->getX();
 		$pk->y = $tile->getY();
 		$pk->z = $tile->getZ();
-		$pk->namedtag = $nbt->write();
+		$pk->namedtag = $nbt->write(true);
 		$pl->dataPacket($pk);
 	}
 	public function activateSign($pl,$tile) {
